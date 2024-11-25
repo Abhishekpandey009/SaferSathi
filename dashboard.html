@@ -3,40 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard - SafarSathi</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="./assets/css/style1.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Optional for charts -->
 </head>
 <body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">SafarSathi</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Ride</a></li>
+        <li><a href="#">Drive</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+    </header>
 
-  <nav>
-    <img src="assets/images/logo.png" alt="SafarSathi Logo" class="logo">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="login.html">Login</a></li>
-      <li><a href="register.html">Register</a></li>
-      <li><a href="dashboard.html">Dashboard</a></li>
-    </ul>
-  </nav>
-
-  <section class="dashboard">
-    <h2>Welcome, [User Name]</h2>
-    <div class="rides">
-      <h3>Available Rides</h3>
-      <div class="ride-card">
-        <p>Ride Details</p>
-        <button>Book Now</button>
+  <!-- Main Content -->
+  <main>
+    <!-- Dashboard Overview -->
+    <section class="dashboard">
+      <h1>Welcome to Your Dashboard</h1>
+      <div class="cards">
+        <div class="card">
+          <h3>Rides</h3>
+          <p>Book rides</p>
+          <a href="#rides-section">Book Your First Ride</a>
+        </div>
+        <div class="card">
+          <h3>Booking History</h3>
+          <p>Check your past bookings</p>
+          <a href="#history-section">View History</a>
+        </div>
+        <div class="card">
+          <h3>Wallet</h3>
+          <p>See your Wallet</p>
+          <a href="#user-wallet">User Wallet</a>
+        </div>
+        <div class="card">
+          <h3>Manage Account</h3>
+          <p>manage your account setting</p>
+          <a href="#Manage-account">Manage Account</a>
+        </div>
+        <div class="card">
+          <h3>Setting</h3>
+          <p>Change User Setting</p>
+          <a href="#Setting">Change Setting</a>
+        </div>
       </div>
-      <div class="ride-card">
-        <p>Ride Details</p>
-        <button>Book Now</button>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <footer>
+    <!-- Available Rides Section -->
+    <section id="rides-section">
+      <h2>Get a Ride</h2>
+      
+      
+    </section>
+
+    <!-- Booking History Section -->
+    <section id="history-section">
+      <h2>Booking History</h2>
+      <p>No bookings yet.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
     <p>&copy; 2024 SafarSathi. All rights reserved.</p>
   </footer>
-
-  <script src="js/script.js"></script>
 </body>
 </html>
