@@ -1,69 +1,52 @@
-# 🛡️ SaferSathi – Your Personal Safety Companion
+# SafarSathi 🚗🛣️
 
-**SaferSathi** is a revolutionary safety app built to protect you in any situation. Whether you're traveling alone or navigating unfamiliar areas, SaferSathi ensures you're never truly alone. With real-time location sharing, one-tap emergency alerts, and a network of trusted contacts, help is always just a tap away.
-
----
-
-## 🚀 Features
-
-- **📍 Real-Time Location Sharing**  
-  Share your live location with trusted contacts during emergencies or travel.
-
-- **🚨 Emergency SOS**  
-  One-tap SOS alerts send your current location to all your emergency contacts instantly.
-
-- **👥 Trusted Contacts Network**  
-  Build a circle of reliable family and friends who can monitor and respond in real time.
-
-- **⏰ Scheduled Check-ins**  
-  Set up check-in times that notify your contacts if missed.
-
-- **🛣️ Safe Route Suggestions**  
-  Get AI-powered route recommendations for safer travel, especially at night.
-
-- **📞 One-Tap Emergency Call**  
-  Instantly dial emergency services and notify your safety circle simultaneously.
+**SafarSathi** is a ride-sharing mobile application designed to help commuters share rides efficiently, save costs, and promote eco-friendly travel. The app connects passengers and drivers based on shared destinations, offering both commercial and non-commercial ride options.  
 
 ---
 
-## 📱 How It Works
+## Features
 
-1. **Download & Install** – Get SaferSathi from the app store and sign up.
-2. **Add Trusted Contacts** – Create your safety circle of friends and family.
-3. **Set Up Features** – Configure emergency settings, check-ins, and preferences.
-4. **Stay Protected** – Go about your day with peace of mind.
+- **User Registration & Authentication**  
+  Sign up or log in securely to access the app's features.  
 
----
+- **Ride Booking & Sharing**  
+  - Passengers can request rides for specific destinations.  
+  - Drivers can offer rides and set available seats.  
+  - Cost-sharing calculation for passengers and drivers.  
 
-## 💼 Professional Safety Services
+- **Search & Matching**  
+  Intelligent ride matching based on location, time, and route preferences.  
 
-| Service             | Description                         | Price  |
-|---------------------|-------------------------------------|--------|
-| Safety Escort        | Get a trained escort for safe travel | ₹499   |
-| Emergency Response   | 24/7 emergency response support     | ₹999   |
+- **Real-Time Updates**  
+  Track ride status, location, and estimated arrival times.  
 
----
+- **User Profile Management**  
+  Manage your ride history, personal info, and preferences.  
 
-## 🗣️ Testimonials
-
-> "SaferSathi changed the way I feel about solo travel. The real-time updates give my family peace of mind." – *Priya Sharma, College Student*
-
-> "Check-in alerts help me stay connected with my daughter’s commute. Highly recommended!" – *Rajesh Patel, Parent*
-
-> "I felt unsafe and the SOS feature instantly alerted my contacts. I got help quickly!" – *Ananya Gupta, Working Professional*
+- **Ratings & Reviews**  
+  Rate your ride experience to maintain community trust.  
 
 ---
 
-## 🌐 Live Demo
+## Tech Stack
 
-[🔗 Visit SaferSathi Website](https://neon-smakager-d6c048.netlify.app/)
-
----
-
-## 📎 License
-
-This project is licensed under the [MIT License](LICENSE).
+- **Frontend:** React Native with Expo  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB Atlas  
+- **Authentication:** JWT (JSON Web Tokens)  
+- **Hosting:** Render / Any preferred platform  
 
 ---
 
-### © 2025 SaferSathi. All rights reserved.
+## Screenshots
+
+*(Add screenshots of the app here)*  
+
+---
+
+## Installation
+
+1. **Clone the repository**  
+```bash
+git clone https://github.com/<your-username>/SafarSathi.git
+cd SafarSathi
